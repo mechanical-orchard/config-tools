@@ -2,20 +2,4 @@
 
 Tools for managing application config in Elixir apps
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `config_tools` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:config_tools, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/config_tools>.
-
+Implements a [Config.Provider](https://hexdocs.pm/elixir/main/Config.Provider.html) that will dump your config to stdout, allowing you to use it for approval testing.
